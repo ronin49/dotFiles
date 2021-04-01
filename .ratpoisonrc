@@ -1,0 +1,5 @@
+definekey top M-p exec systemctl poweroff
+definekey top M-Tab next
+definekey top M-w kill
+exec setxkbmap -layout us,ru -option grp:alt_shift_toggle
+definekey top Super_L exec ~/.config/rofi/launchers/slate/launcher.sh
